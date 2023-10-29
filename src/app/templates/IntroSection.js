@@ -8,7 +8,7 @@ export default function IntroSection () {
             <div className="p-4">
                 <p className='text-4xl'>We are...</p>
                 <p className='text-6xl font-bold text-yellow-300'>Joybread Studios</p>
-                <p className='flex justify-end'>...we joy, we bread, we breadjoy.</p>
+                <p className='flex justify-end'>...we joy, we bread, we joybread.</p>
             </div>
             <div className='p-4'>
                 <Link href='https://github.com/joybread-studios'><FontAwesomeIcon icon={faGithub} size='3x' className="hover:text-yellow-300 transition duration-300 ease-in-out"/></Link>
