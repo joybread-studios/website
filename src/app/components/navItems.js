@@ -30,7 +30,7 @@ export default function NavItemsContainer(){
     return (
         <>
             { isContainerVisible && scrollY !== 0 && (
-                <div className='m-4 p-2 fixed bottom-0 right-0 bg-black rounded-2xl border flex'>
+                <div className='m-4 p-2 fixed bottom-0 right-0 bg-black rounded-2xl border flex z-50'>
                     <NavLink href='#intro'><FontAwesomeIcon icon={faHouse} className="hover:text-yellow-300 transition duration-300 ease-in-out"/></NavLink>
                     <NavLink href='#about'><FontAwesomeIcon icon={faInfoCircle} className="hover:text-yellow-300 transition duration-300 ease-in-out"/></NavLink>
                     <NavLink href='#projects'><FontAwesomeIcon icon={faBriefcase} className="hover:text-yellow-300 transition duration-300 ease-in-out"/></NavLink>
